@@ -1,0 +1,119 @@
+ body {
+  background-color: black;
+} 
+  
+.box {
+  display: inline-block;       
+  /* border: 1px solid black; */
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: black;
+}
+
+.on {
+  background-color: limegreen;
+}
+  
+.box:hover { 
+  background: white;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
+  
+h1, h2, h4 {
+  color:black;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 65px;
+  letter-spacing: 4px;  
+  
+}
+h3{
+  font-size: 25px;
+  color:limegreen;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  margin-top: 10px;
+}
+h2 {
+  font-size: 45px;
+  color:limegreen;
+  background-color: black;
+  width: 400px;
+  
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.button {
+  margin: 0 5px;
+  border: limegreen 3px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: limegreen;
+  font-size: 20px;
+  height: 50px;
+
+  letter-spacing: 5px;
+}
+
+.button:hover {
+  background-color: limegreen;
+  color: black;
+  font-weight: bold;
+
+}
+
+.container {
+  display: flex;
+}
+
+/* @font-face {
+  font-family: 'pixeboyregular';
+  src: url('./font/pixeboy-z8xgd-webfont.woff') format('woff2');       
+  font-weight: normal;
+  font-style: normal;
+
+} */
+
+#size-menu {
+  margin: 0 5px;
+  border: limegreen 3px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: limegreen;
+  font-size: 20px;
+  height: 50px;
+  letter-spacing: 2px;
+}
+
+#size-menu:hover {
+  background-color: limegreen;
+  color: black;
+  font-weight: bold;
+  
+
+}
+
