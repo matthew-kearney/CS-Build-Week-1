@@ -161,17 +161,17 @@ class Container extends React.Component {
     gridSize = (size) => {
       switch (size) {
         case "1":
-          this.cols = 26;
-          this.rows = 28;
+          this.cols = 25;
+          this.rows = 30;
           
         break
         case "2":
-          this.cols = 30;
-          this.rows = 35;
+          this.cols = 36;
+          this.rows = 42;
         break
         default:
-          this.cols = 48;
-          this.rows = 56;
+          this.cols = 49;
+          this.rows = 54;
       }
       this.clear();      
     }
